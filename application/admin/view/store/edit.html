@@ -1,0 +1,87 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Store_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-store_name" data-rule="required" class="form-control" name="row[store_name]" type="text" value="{$row.store_name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Agent_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-agent_id" data-rule="required"  class="form-control" name="row[agent_id]" type="text" value="{$row.agent_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text" value="{$row.username|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Password')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-password" class="form-control" name="row[password]" type="text" placeholder="留空不修改密码">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">点数:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" class="form-control" name="row[price]" type="number" value="{$row.price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">同时监控任务限制:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-task_count" class="form-control"  name="row[task_count]" type="number" value="{$row.task_count}">
+            <label style="font-weight:unset;color: #999;padding-top:5px;font-size: 12px;">限制商户只能同时监控X个任务，设置0则使用常规管理里面的统一配置</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">抖音任务视频限制:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-dy_count" class="form-control"  name="row[dy_count]" type="number" value="{$row.dy_count}">
+            <label style="font-weight:unset;color: #999;padding-top:5px;font-size: 12px;">限制每个抖音任务最多采集X个视频，设置0则使用常规管理里面的统一配置</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">小红书任务笔记限制:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-xhs_count" class="form-control"  name="row[xhs_count]" type="number" value="{$row.xhs_count}">
+            <label style="font-weight:unset;color: #999;padding-top:5px;font-size: 12px;">限制每个小红书任务最多采集X个笔记，设置0则使用常规管理里面的统一配置</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">是否重复采集:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="row[is_repeat]" class="is_repeat" {if $row.is_repeat==0}checked{/if} value="0">重复采集
+                </label>
+                <label>
+                    <input type="radio" name="row[is_repeat]" class="is_repeat" {if $row.is_repeat==1}checked{/if} value="1">去重采集
+                </label>
+            </div>
+            <label style="font-weight:unset;color: #999;padding-top:5px;font-size: 12px;">选择去重采集，即每个用户只采集一次，其他任务有出现该用户也不会采集</label>
+        </div>
+    </div>
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" data-rule="required" class="form-control" name="row[status]" type="number" value="{$row.status|htmlentities}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-3">{:__('Out_date')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-out_date" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[out_date]" type="text" value="{$row.out_date}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-3"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

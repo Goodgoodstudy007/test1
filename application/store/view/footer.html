@@ -1,0 +1,52 @@
+<div class="footer">
+    <a class="maobin" href="/store/index/index">
+        <div class="footer_li ">
+            <div class="footbiao">
+                <img src="/assets/img/home_{if $html_name!='index'}no{/if}select.png">
+            </div>
+            <div class="footzi" {if $html_name=="index"}style="color:#2196F3;"{/if}>
+                首页
+            </div>
+        </div>
+    </a>
+    <a class="maobin" href="/store/task/index?mode=1">
+        <div class="footer_li ">
+            <div class="footbiao">
+                <img src="/assets/img/task_{if $html_name!='task_mode1'}no{/if}select.png">
+            </div>
+            <div class="footzi"  {if $html_name=="task_mode1"}style="color:#2196F3;"{/if}>
+                主页监控
+            </div>
+        </div>
+    </a>
+    <a class="maobin" href="/store/task/index?mode=2">
+        <div class="footer_li ">
+            <div class="footbiao">
+                <img src="/assets/img/{if $html_name!='task_mode2'}no{/if}video.png">
+            </div>
+            <div class="footzi"  {if $html_name=="task_mode2"}style="color:#2196F3;"{/if}>
+                单视频监控
+            </div>
+        </div>
+    </a>
+    <a class="maobin" href="/store/task/index?mode=3">
+        <div class="footer_li ">
+            <div class="footbiao">
+                <img src="/assets/img/{if $html_name!='task_mode3'}no{/if}search.png">
+            </div>
+            <div class="footzi"  {if $html_name=="task_mode3"}style="color:#2196F3;"{/if}>
+                关键词监控
+            </div>
+        </div>
+    </a>
+    <a class="maobin" href="/store/user/info">
+        <div class="footer_li ">
+            <div class="footbiao">
+                <img src="/assets/img/user_{if $html_name!='user'}no{/if}select.png">
+            </div>
+            <div class="footzi"  {if $html_name=="user"}style="color:#2196F3;"{/if}>
+                个人信息
+            </div>
+        </div>
+    </a>
+</div>

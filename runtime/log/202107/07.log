@@ -1,0 +1,3186 @@
+---------------------------------------------------------------
+[ 2021-07-07T10:42:58+08:00 ] 14.144.120.86 POST xunpang.hu29.com/CSiRHAJcsG.php/addon/state
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]mkdir(): Permission denied
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/validate/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/controller/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/lang/zh-cn/command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/model/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/index.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/add.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/detail.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/public/assets/js/backend/command.js): No such file or directory
+---------------------------------------------------------------
+[ 2021-07-07T10:43:31+08:00 ] 14.144.120.86 POST xunpang.hu29.com/CSiRHAJcsG.php/addon/state
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/validate/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/controller/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/lang/zh-cn/command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/model/Command.php): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/index.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/add.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/application/admin/view/command/detail.html): No such file or directory
+[ error ] [2]unlink(/www/wwwroot/xunpang/public/assets/js/backend/command.js): No such file or directory
+---------------------------------------------------------------
+[ 2021-07-07T16:15:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index
+[ error ] [8]未定义变量: 
+---------------------------------------------------------------
+[ 2021-07-07T16:16:10+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index
+[ error ] [8]未定义变量: 
+---------------------------------------------------------------
+[ 2021-07-07T16:16:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index
+[运行时间：0.023662s] [吞吐率：42.26req/s] [内存消耗：2,951.06kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000600s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000148s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000852s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: [/www/wwwroot/xunpang/application/index/controller/Douyin.php:17]
+---------------------------------------------------------------
+[ 2021-07-07T16:17:38+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.020879s] [吞吐率：47.89req/s] [内存消耗：2,951.33kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000618s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000804s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: 77777777777ge[/www/wwwroot/xunpang/application/index/controller/Douyin.php:17]
+---------------------------------------------------------------
+[ 2021-07-07T16:17:45+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.182987s] [吞吐率：5.46req/s] [内存消耗：2,880.48kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000642s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000826s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:19:04+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.316518s] [吞吐率：3.16req/s] [内存消耗：2,881.09kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000672s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000908s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:19:05+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.268150s] [吞吐率：3.73req/s] [内存消耗：2,881.09kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000643s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000867s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:19:13+08:00 ] 203.119.241.110 GET xunpang.hu29.com/
+[运行时间：0.027049s] [吞吐率：36.97req/s] [内存消耗：2,922.82kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000896s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/17A878 ChannelId(3) NebulaSDK/1.8.100112 Nebula WK PSDType(1) AlipayDefined(nt:4G,ws:414|832|3.0) AliApp(AP/10.1.79.6010) AlipayClient/10.1.79.6010 Language/zh-Hans Region/CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001198s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:19:20+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.019164s] [吞吐率：52.18req/s] [内存消耗：2,848.36kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000651s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000864s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:22:33+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.382122s] [吞吐率：2.62req/s] [内存消耗：2,882.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000622s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000809s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:23:10+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.417389s] [吞吐率：2.40req/s] [内存消耗：2,882.60kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000638s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000163s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000815s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:23:48+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.352874s] [吞吐率：2.83req/s] [内存消耗：2,882.70kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000682s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000890s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:24:49+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.210724s] [吞吐率：4.75req/s] [内存消耗：2,883.13kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000835s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:24:49+08:00 ] 203.119.241.108 GET xunpang.hu29.com/
+[运行时间：0.032654s] [吞吐率：30.62req/s] [内存消耗：2,922.57kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000734s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI NOTE LTE Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/1.0.0.100 U3/0.8.0 Mobile Safari/534.30 AliApp(TB/6.6.4) WindVane/8.0.0 1080X1920 GCanvas/1.4.2.21',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000836s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:24:49+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.125510s] [吞吐率：7.97req/s] [内存消耗：2,883.13kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000682s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000836s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:28:14+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.366765s] [吞吐率：2.73req/s] [内存消耗：2,883.13kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000674s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:35:21+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.266719s] [吞吐率：3.75req/s] [内存消耗：2,883.03kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001527s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000619s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001389s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:35:22+08:00 ] 203.119.241.109 GET xunpang.hu29.com/
+[运行时间：0.023168s] [吞吐率：43.16req/s] [内存消耗：2,922.57kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000674s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N9100 Build/LRX22C  ) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A404 Tx(Tx/6.0.0) WindVane/8.1.0 1242x2208',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000846s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:35:34+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.428066s] [吞吐率：2.34req/s] [内存消耗：2,883.03kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000689s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001008s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:35:36+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.356593s] [吞吐率：2.80req/s] [内存消耗：2,883.03kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000673s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000914s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:52:57+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.381233s] [吞吐率：2.62req/s] [内存消耗：2,883.03kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002535s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001075s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001806s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:52:57+08:00 ] 203.119.241.88 GET xunpang.hu29.com/
+[运行时间：0.026459s] [吞吐率：37.79req/s] [内存消耗：2,922.70kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000698s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 7.1.1; TA-1000 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043128 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001066s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:55:00+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.141000s] [吞吐率：7.09req/s] [内存消耗：2,880.96kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000622s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000833s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:55:07+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.022557s] [吞吐率：0.98req/s] [内存消耗：2,883.03kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000706s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000809s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:56:30+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.843207s] [吞吐率：1.19req/s] [内存消耗：2,883.28kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000691s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000974s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T16:56:52+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.018360s] [吞吐率：0.98req/s] [内存消耗：2,882.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000759s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001215s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:00:55+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.224381s] [吞吐率：4.46req/s] [内存消耗：2,882.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000737s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001024s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:00:55+08:00 ] 203.119.241.86 GET xunpang.hu29.com/
+[运行时间：0.022899s] [吞吐率：43.67req/s] [内存消耗：2,922.57kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000628s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000141s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Lenovo K50-t5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000867s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:00:57+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.022745s] [吞吐率：0.98req/s] [内存消耗：2,882.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000822s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:00:57+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.388792s] [吞吐率：2.57req/s] [内存消耗：2,882.76kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000834s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:16:28+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.450273s] [吞吐率：2.22req/s] [内存消耗：2,854.70kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000666s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001872s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:16:29+08:00 ] 203.119.241.44 GET xunpang.hu29.com/
+[运行时间：0.023541s] [吞吐率：42.48req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000651s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/13D15 UCBrowser/10.9.15.793 Mobile',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000856s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:17:33+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.793035s] [吞吐率：1.26req/s] [内存消耗：2,887.65kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000615s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:17:55+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：2.535939s] [吞吐率：0.39req/s] [内存消耗：2,887.93kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000646s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000855s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:18:02+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.445062s] [吞吐率：2.25req/s] [内存消耗：2,854.70kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:22:54+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.541321s] [吞吐率：1.85req/s] [内存消耗：2,854.70kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000661s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000803s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:22:55+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.315931s] [吞吐率：3.17req/s] [内存消耗：2,854.70kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000713s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000845s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:22:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.431167s] [吞吐率：2.32req/s] [内存消耗：2,854.70kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000767s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000134s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001059s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:32:23+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.688076s] [吞吐率：1.45req/s] [内存消耗：2,959.08kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002285s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000446s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001257s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/xunpang/application/common.php:565]
+---------------------------------------------------------------
+[ 2021-07-07T17:32:24+08:00 ] 203.119.241.124 GET xunpang.hu29.com/
+[运行时间：0.023526s] [吞吐率：42.51req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000637s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C  ) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Tx(Tx/6.8.1) WindVane/8.2.0 750x1334',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000860s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:34:58+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.934258s] [吞吐率：1.07req/s] [内存消耗：2,959.65kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000687s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000820s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/www/wwwroot/xunpang/application/common.php:565]
+---------------------------------------------------------------
+[ 2021-07-07T17:35:20+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.628668s] [吞吐率：1.59req/s] [内存消耗：2,863.26kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000798s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:35:27+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.522062s] [吞吐率：1.92req/s] [内存消耗：2,912.30kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000694s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000877s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:35:32+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.955463s] [吞吐率：1.05req/s] [内存消耗：2,888.33kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000672s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000151s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000870s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:35:52+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.550268s] [吞吐率：1.82req/s] [内存消耗：2,913.38kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:36:47+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.669418s] [吞吐率：1.49req/s] [内存消耗：2,888.33kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000662s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000825s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:37:47+08:00 ] 47.98.105.50 GET xunpang.hu29.com/
+[运行时间：0.025172s] [吞吐率：39.73req/s] [内存消耗：2,925.98kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000687s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'xunpang.hu29.com',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000925s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:42:55+08:00 ] 203.119.241.85 GET xunpang.hu29.com/
+[运行时间：0.024415s] [吞吐率：40.96req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000627s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-N9100 Build/LRX22C  ) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 Tx(Tx/6.6.0) WindVane/8.2.0 1125x2001',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000888s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T17:42:55+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.770888s] [吞吐率：1.30req/s] [内存消耗：2,888.33kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000731s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000174s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000931s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T18:40:51+08:00 ] 47.103.139.66 GET xunpang.hu29.com/
+[运行时间：0.063437s] [吞吐率：15.76req/s] [内存消耗：2,925.98kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001457s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000408s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'xunpang.hu29.com',
+  'user-agent' => 'Mozilla/5.0 chrome(windows nt/Windows NT;)Chrome',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001213s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:45:24+08:00 ] 203.119.241.124 GET xunpang.hu29.com/
+[运行时间：0.079703s] [吞吐率：12.55req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002439s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000957s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C  ) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72 Tx(Tx/6.6.0) WindVane/8.2.0 750x1334',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001272s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:45:25+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.663936s] [吞吐率：1.51req/s] [内存消耗：2,888.33kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000672s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000137s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:48:20+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.935991s] [吞吐率：1.07req/s] [内存消耗：2,889.45kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000823s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:50:42+08:00 ] 203.119.241.97 GET xunpang.hu29.com/
+[运行时间：0.021279s] [吞吐率：47.00req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000659s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C  ) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000847s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:50:44+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.377220s] [吞吐率：0.73req/s] [内存消耗：2,889.44kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000624s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000136s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000833s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:51:25+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.836599s] [吞吐率：1.20req/s] [内存消耗：2,889.44kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000645s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:51:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.668756s] [吞吐率：1.50req/s] [内存消耗：2,889.44kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000644s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000141s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000813s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:52:32+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.573989s] [吞吐率：1.74req/s] [内存消耗：2,889.44kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000669s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000163s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000863s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:53:36+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.790178s] [吞吐率：1.27req/s] [内存消耗：2,889.44kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000734s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000840s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:54:43+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.406772s] [吞吐率：2.46req/s] [内存消耗：2,889.71kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000645s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:54:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.547487s] [吞吐率：1.83req/s] [内存消耗：2,914.12kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000818s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:55:58+08:00 ] 203.119.241.88 GET xunpang.hu29.com/
+[运行时间：0.020596s] [吞吐率：48.55req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000139s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(DingTalk/4.7.15) com.laiwang.DingTalk/12191012 Channel/201200 language/zh-Hans-CN UT4Aplus/0.0.6 WK',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000840s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:55:58+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.726258s] [吞吐率：1.38req/s] [内存消耗：2,888.31kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000617s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000816s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:56:59+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：0.774045s] [吞吐率：1.29req/s] [内存消耗：2,888.77kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000669s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000861s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T19:58:21+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.496350s] [吞吐率：0.67req/s] [内存消耗：2,888.84kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000636s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000827s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:00:15+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.135776s] [吞吐率：0.88req/s] [内存消耗：2,889.23kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000190s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001243s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:01:16+08:00 ] 203.119.241.117 GET xunpang.hu29.com/
+[运行时间：0.022441s] [吞吐率：44.56req/s] [内存消耗：2,927.42kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000653s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; x600 Build/ABXCNOP5902303111S) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/1.0.0.100 U3/0.8.0 Mobile Safari/534.30 AliApp(TB/6.6.4) WindVane/8.0.0 1080X1920 GCanvas/1.4.2.21',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000850s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:01:18+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.901368s] [吞吐率：0.53req/s] [内存消耗：2,888.65kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000883s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:01:31+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.199784s] [吞吐率：0.83req/s] [内存消耗：2,888.65kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000970s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:01:44+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：2.030277s] [吞吐率：0.49req/s] [内存消耗：2,888.59kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000799s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000915s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:01:54+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.346141s] [吞吐率：0.74req/s] [内存消耗：2,888.43kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000911s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:02:06+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：2.293342s] [吞吐率：0.44req/s] [内存消耗：2,888.40kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000625s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000853s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:02:18+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.353492s] [吞吐率：0.74req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000668s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000138s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000912s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:12:52+08:00 ] 203.119.241.87 GET xunpang.hu29.com/
+[运行时间：0.026035s] [吞吐率：38.41req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000645s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000156s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.0; zh-cn; MI 5 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.146 Mobile Safari/537.36 XiaoMi/MiuiBrowser/8.7.8',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000894s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:12:53+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.403892s] [吞吐率：0.71req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001595s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000481s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001490s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:13:38+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.387412s] [吞吐率：0.72req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000646s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000185s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000849s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:14:56+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.549757s] [吞吐率：0.65req/s] [内存消耗：2,888.65kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000647s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000849s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:15:28+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.740302s] [吞吐率：0.57req/s] [内存消耗：2,888.65kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000644s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000883s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:15:44+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.850652s] [吞吐率：0.54req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000843s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:16:06+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：2.128521s] [吞吐率：0.47req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000627s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000812s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:17:20+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.332704s] [吞吐率：0.75req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000640s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000838s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:17:36+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.363657s] [吞吐率：0.73req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000652s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000817s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:18:11+08:00 ] 203.119.241.119 GET xunpang.hu29.com/
+[运行时间：0.026637s] [吞吐率：37.54req/s] [内存消耗：2,927.30kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000694s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000155s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xunpang.hu29.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A5000 Build/LRX22C  ) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B150 Tx(Tx/6.8.1) WindVane/8.2.0 1242x2208',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000888s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:18:13+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：2.592185s] [吞吐率：0.39req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000749s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000843s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:18:35+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.699112s] [吞吐率：0.59req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000706s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000884s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-07T20:19:14+08:00 ] 113.101.12.50 GET xunpang.hu29.com/index/douyin/index?douyin_id=77777777777ge
+[运行时间：1.834783s] [吞吐率：0.55req/s] [内存消耗：2,888.21kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000619s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624935235,1624935257,1624935292,1625572404; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1625625006; PHPSESSID=kcj4uejl6or94qdj2thpet3ilj; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'douyin_id' => '77777777777ge',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000826s ]
+[ info ] [ RUN ] app\index\controller\Douyin->index[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ LOG ] INIT File

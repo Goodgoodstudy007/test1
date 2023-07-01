@@ -1,0 +1,2927 @@
+---------------------------------------------------------------
+[ 2021-07-15T10:38:16+08:00 ] 61.140.182.57 GET xunpang.hu29.com/CSiRHAJcsG.php/store_task?ref=addtabs
+[运行时间：0.103556s] [吞吐率：9.66req/s] [内存消耗：3,843.84kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002515s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store_task',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001861s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000660s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T10:38:16+08:00 ] 61.140.182.57 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.017736s] [吞吐率：56.38req/s] [内存消耗：2,038.13kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000644s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/index/douyin/add_task_info',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T10:38:20+08:00 ] 61.140.182.57 GET xunpang.hu29.com/CSiRHAJcsG.php/index/login?url=%2FCSiRHAJcsG.php%2Fstore_task%3Fref%3Daddtabs
+[运行时间：0.025380s] [吞吐率：39.40req/s] [内存消耗：3,189.26kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000134s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/CSiRHAJcsG.php/store_task?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/CSiRHAJcsG.php/store_task?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000829s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000064s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T10:38:20+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index.php?s=/captcha
+[运行时间：0.017303s] [吞吐率：57.79req/s] [内存消耗：2,059.98kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000626s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000137s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T10:38:24+08:00 ] 61.140.182.57 GET xunpang.hu29.com/CSiRHAJcsG.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1626316700&v=1626316700
+[运行时间：0.024791s] [吞吐率：40.34req/s] [内存消耗：3,210.82kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000606s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1626316700',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001127s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000061s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T11:55:40+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.401334s] [吞吐率：0.71req/s] [内存消耗：3,613.40kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003625s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001223s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001941s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T12:46:02+08:00 ] 106.14.227.62 GET xunpang.hu29.com/
+[运行时间：0.449098s] [吞吐率：2.23req/s] [内存消耗：2,926.77kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006665s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.006619s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'xunpang.hu29.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001828s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:09:12+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.389139s] [吞吐率：0.72req/s] [内存消耗：3,613.40kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002325s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000411s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001214s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:09:45+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.535255s] [吞吐率：0.65req/s] [内存消耗：3,613.42kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000619s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000130s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000783s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:09:56+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.300527s] [吞吐率：0.77req/s] [内存消耗：3,613.42kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000655s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000853s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:38:32+08:00 ] 47.101.146.202 GET xunpang.hu29.com/
+[运行时间：0.062317s] [吞吐率：16.05req/s] [内存消耗：2,926.77kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002485s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000389s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'Keep-Alive',
+  'host' => 'xunpang.hu29.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001280s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:42:28+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.327170s] [吞吐率：0.75req/s] [内存消耗：3,613.42kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000648s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000131s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000865s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:47:35+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：0.952285s] [吞吐率：1.05req/s] [内存消耗：3,613.42kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000682s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000828s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:51:30+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：0.989763s] [吞吐率：1.01req/s] [内存消耗：3,613.41kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000635s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000834s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:51:30+08:00 ] 61.140.182.57 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.021443s] [吞吐率：46.63req/s] [内存消耗：2,038.20kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000740s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/index/douyin/add_task_info',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:51:32+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.179516s] [吞吐率：0.85req/s] [内存消耗：3,613.39kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000617s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000128s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000781s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:52:11+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.264936s] [吞吐率：0.79req/s] [内存消耗：3,613.40kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000635s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000175s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000831s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:52:33+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.149015s] [吞吐率：0.87req/s] [内存消耗：3,625.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000707s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000161s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:52:45+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.078734s] [吞吐率：0.93req/s] [内存消耗：3,613.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000693s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:53:03+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.277791s] [吞吐率：0.78req/s] [内存消耗：3,625.26kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000752s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000793s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:53:16+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.062735s] [吞吐率：0.94req/s] [内存消耗：3,613.40kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000619s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000146s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000895s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:53:22+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.074353s] [吞吐率：0.93req/s] [内存消耗：3,625.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000587s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000136s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000834s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:53:50+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.273915s] [吞吐率：0.78req/s] [内存消耗：3,621.09kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000675s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000827s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:55:19+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.489329s] [吞吐率：0.67req/s] [内存消耗：3,625.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000607s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:56:36+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.188426s] [吞吐率：0.84req/s] [内存消耗：3,613.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000694s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000143s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:56:56+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：2.059267s] [吞吐率：0.49req/s] [内存消耗：3,613.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000632s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000160s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000903s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:58:48+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.070545s] [吞吐率：0.93req/s] [内存消耗：3,625.23kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000656s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000888s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T13:59:09+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：0.984120s] [吞吐率：1.02req/s] [内存消耗：3,625.42kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000598s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000144s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000798s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:00:18+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：6.272898s] [吞吐率：0.16req/s] [内存消耗：3,662.58kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019055s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002439s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002349s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:00:23+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.319355s] [吞吐率：0.76req/s] [内存消耗：3,662.55kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010199s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000936s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:02:46+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.137084s] [吞吐率：0.88req/s] [内存消耗：3,637.65kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000631s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:14:53+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/add_task_info
+[运行时间：1.068684s] [吞吐率：0.94req/s] [内存消耗：3,617.98kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000642s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'add_task_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->add_task_info[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:38:40+08:00 ] 61.140.182.57 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.066776s] [吞吐率：14.98req/s] [内存消耗：2,036.25kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002763s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000481s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:38:41+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.029733s] [吞吐率：33.63req/s] [内存消耗：2,964.37kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000732s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000150s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001269s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:38:45+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.041686s] [吞吐率：23.99req/s] [内存消耗：3,612.55kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000624s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000129s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000896s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:57:05+08:00 ] 61.140.182.57 GET xunpang.hu29.com/CSiRHAJcsG.php/index/login?url=%2FCSiRHAJcsG.php%2Fstore_task%3Fref%3Daddtabs
+[运行时间：0.069693s] [吞吐率：14.35req/s] [内存消耗：3,189.95kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001860s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001058s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/CSiRHAJcsG.php/store_task?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/CSiRHAJcsG.php/store_task?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001601s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000336s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:57:05+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index.php?s=/captcha
+[运行时间：0.021294s] [吞吐率：46.96req/s] [内存消耗：2,060.10kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000705s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T14:57:05+08:00 ] 61.140.182.57 GET xunpang.hu29.com/CSiRHAJcsG.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1626332225&v=1626332225
+[运行时间：0.025063s] [吞吐率：39.90req/s] [内存消耗：3,210.82kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000657s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1626332225',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001046s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000082s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:03:27+08:00 ] 61.140.182.57 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.069414s] [吞吐率：14.41req/s] [内存消耗：2,036.25kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003612s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:03:29+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：1.598482s] [吞吐率：0.63req/s] [内存消耗：5,089.68kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000680s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000147s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010123s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:14:55+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：0.071704s] [吞吐率：13.95req/s] [内存消耗：3,724.94kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001550s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000419s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001198s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tc.task_id' in 'on clause'[/www/wwwroot/xunpang/thinkphp/library/think/db/Connection.php:385]
+---------------------------------------------------------------
+[ 2021-07-15T15:15:08+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：1.202616s] [吞吐率：0.83req/s] [内存消耗：3,716.07kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000639s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000801s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[/www/wwwroot/xunpang/application/index/controller/Douyin.php:87]
+---------------------------------------------------------------
+[ 2021-07-15T15:15:37+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：1.205231s] [吞吐率：0.83req/s] [内存消耗：3,634.02kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000722s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000831s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:18:06+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：0.985596s] [吞吐率：1.01req/s] [内存消耗：3,631.34kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000653s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000849s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:36:26+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_task_video
+[运行时间：0.094675s] [吞吐率：10.56req/s] [内存消耗：3,654.26kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002701s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_task_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001901s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_task_video[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:36:32+08:00 ] 61.140.182.57 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.018946s] [吞吐率：52.78req/s] [内存消耗：2,036.25kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000706s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:36:33+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.305275s] [吞吐率：3.28req/s] [内存消耗：3,651.13kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000659s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000158s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000812s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:36:55+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.156422s] [吞吐率：6.39req/s] [内存消耗：3,618.81kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000614s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000838s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:37:11+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：1.062153s] [吞吐率：0.94req/s] [内存消耗：3,834.81kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000721s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000968s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:37:19+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.630131s] [吞吐率：1.59req/s] [内存消耗：4,582.66kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000646s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000149s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:41:12+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.725133s] [吞吐率：1.38req/s] [内存消耗：5,993.50kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000665s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000860s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:44:47+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.556960s] [吞吐率：1.80req/s] [内存消耗：5,998.08kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001274s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000838s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T15:45:31+08:00 ] 61.140.182.57 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.725096s] [吞吐率：1.38req/s] [内存消耗：5,993.94kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000613s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000132s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000882s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T20:27:19+08:00 ] 59.41.161.221 GET xunpang.hu29.com/CSiRHAJcsG.php/index/login?url=%2FCSiRHAJcsG.php%2Fstore_task%3Fref%3Daddtabs
+[运行时间：0.089454s] [吞吐率：11.18req/s] [内存消耗：3,189.95kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003485s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001181s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/CSiRHAJcsG.php/store_task?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/CSiRHAJcsG.php/store_task?ref=addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001541s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000333s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T20:27:20+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index.php?s=/captcha
+[运行时间：0.018852s] [吞吐率：53.04req/s] [内存消耗：2,060.10kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T20:27:23+08:00 ] 59.41.161.221 GET xunpang.hu29.com/favicon.ico
+[运行时间：0.017468s] [吞吐率：57.25req/s] [内存消耗：2,038.13kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000639s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xunpang.hu29.com/index/douyin/get_video_comment',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T20:27:24+08:00 ] 59.41.161.221 GET xunpang.hu29.com/CSiRHAJcsG.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1626352039&v=1626352039
+[运行时间：0.024640s] [吞吐率：40.58req/s] [内存消耗：3,210.82kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000685s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000142s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1626352039',
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001138s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T21:04:56+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：1.198979s] [吞吐率：0.83req/s] [内存消耗：5,846.36kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003175s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001073s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001928s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:11:01+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.088311s] [吞吐率：11.32req/s] [内存消耗：2,223.29kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003523s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001046s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001738s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$douyin_cid' (T_VARIABLE)[/www/wwwroot/xunpang/application/index/controller/Douyin.php:113]
+---------------------------------------------------------------
+[ 2021-07-15T22:11:09+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.043825s] [吞吐率：22.82req/s] [内存消耗：3,632.91kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000708s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000159s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000931s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:17:26+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：1.230211s] [吞吐率：0.81req/s] [内存消耗：3,665.55kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000613s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000140s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:17:47+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.552136s] [吞吐率：1.81req/s] [内存消耗：5,382.13kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000778s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:18:17+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.498895s] [吞吐率：2.00req/s] [内存消耗：5,382.13kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000633s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000832s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:18:35+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.798916s] [吞吐率：1.25req/s] [内存消耗：5,382.13kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000628s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000135s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000819s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:18:42+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.688056s] [吞吐率：1.45req/s] [内存消耗：3,665.55kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000725s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:19:56+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.542047s] [吞吐率：1.84req/s] [内存消耗：5,382.13kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000643s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000918s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:21:53+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.798462s] [吞吐率：1.25req/s] [内存消耗：5,862.13kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000681s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000157s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000958s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:22:40+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.757391s] [吞吐率：1.32req/s] [内存消耗：3,665.55kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000623s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000864s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:23:33+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：1.151035s] [吞吐率：0.87req/s] [内存消耗：3,649.66kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002312s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000423s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001289s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:48:56+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：1.070281s] [吞吐率：0.93req/s] [内存消耗：3,674.21kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002339s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000392s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001238s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:49:22+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.733349s] [吞吐率：1.36req/s] [内存消耗：3,633.44kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000750s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000196s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000913s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:49:31+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.534138s] [吞吐率：1.87req/s] [内存消耗：3,633.44kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000607s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000152s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000805s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:49:36+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.578051s] [吞吐率：1.73req/s] [内存消耗：3,634.09kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000637s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:49:39+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.675196s] [吞吐率：1.48req/s] [内存消耗：3,633.44kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000629s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000137s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000822s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:49:43+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.736013s] [吞吐率：1.36req/s] [内存消耗：3,633.44kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000664s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000814s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:50:10+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.620951s] [吞吐率：1.61req/s] [内存消耗：5,864.06kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000618s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-07-15T22:50:34+08:00 ] 59.41.161.221 GET xunpang.hu29.com/index/douyin/get_video_comment
+[运行时间：0.754235s] [吞吐率：1.33req/s] [内存消耗：3,659.95kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000633s ]
+[ info ] [ LANG ] /www/wwwroot/xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000145s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'douyin',
+    2 => 'get_video_comment',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bc2cf873176f94d4f951e7ede30e0213=1618976683; Hm_lpvt_bc2cf873176f94d4f951e7ede30e0213=1618985874; Hm_lvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; Hm_lpvt_8fa1cdff01680759a2c826d06749dd8a=1624950209; MONITOR_WEB_ID=fd49c032-edd0-49a3-a517-652747921dc3; s_v_web_id=verify_kr25osgf_XumANEWX_ssZo_4xrs_AQd7_OsWE3cfbuUhH; PHPSESSID=ceolffo5pv7cbf0fsjcnqha759; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'xunpang.hu29.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000851s ]
+[ info ] [ RUN ] app\index\controller\Douyin->get_video_comment[ /www/wwwroot/xunpang/application/index/controller/Douyin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

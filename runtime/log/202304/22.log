@@ -1,0 +1,2416 @@
+---------------------------------------------------------------
+[ 2023-04-22T09:32:03+08:00 ] 42.157.129.131 GET dyxp.holdnetwork.cn/
+[运行时间：0.045904s] [吞吐率：21.78req/s] [内存消耗：2,964.52kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001911s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001491s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:04+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/
+[运行时间：0.043943s] [吞吐率：22.76req/s] [内存消耗：2,968.00kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001373s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000303s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:05+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/uploads/media/210615/1-2106151A932.mp3
+[运行时间：0.045383s] [吞吐率：22.03req/s] [内存消耗：2,083.65kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001950s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000437s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'media',
+    2 => '210615',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605',
+  'range' => 'bytes=0-',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'referer' => 'https://dyxp.holdnetwork.cn/',
+  'sec-fetch-dest' => 'audio',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'accept-encoding' => 'identity;q=1, *;q=0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:12+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php
+[运行时间：0.072381s] [吞吐率：13.82req/s] [内存消耗：2,937.73kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001401s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000319s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001750s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001718s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:15+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/index/login
+[运行时间：0.175220s] [吞吐率：5.71req/s] [内存消耗：3,969.16kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001440s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001621s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000372s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:17+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/index.php?s=/captcha
+[运行时间：0.057674s] [吞吐率：17.34req/s] [内存消耗：2,105.59kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001596s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000315s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/douyin_xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:18+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130615&v=1682130615
+[运行时间：0.077175s] [吞吐率：12.96req/s] [内存消耗：3,990.88kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001601s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000347s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130615',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002058s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000295s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:37+08:00 ] 115.224.163.31 POST dyxp.holdnetwork.cn/hold.php/index/login
+[运行时间：0.090721s] [吞吐率：11.02req/s] [内存消耗：4,034.80kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001709s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000343s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://dyxp.holdnetwork.cn',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'content-length' => '91',
+  'host' => 'dyxp.holdnetwork.cn',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'b7345eada286c816296cb65f63ed8381',
+  'username' => 'admin',
+  'password' => 'admin123456',
+  'captcha' => '7iYH',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001417s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006475s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:38+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/index/index
+[运行时间：0.215404s] [吞吐率：4.64req/s] [内存消耗：4,372.79kb] [文件加载：153]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001597s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000356s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001971s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'menulist',
+  7 => 'navlist',
+  8 => 'fixedmenu',
+  9 => 'referermenu',
+  10 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000348s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:38+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/dashboard?addtabs=1
+[运行时间：0.099255s] [吞吐率：10.08req/s] [内存消耗：4,155.05kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001707s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001446s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /www/wwwroot/douyin_xunpang/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'store_count',
+  7 => 'agent_one_count',
+  8 => 'agent_sub_count',
+  9 => 'today_store_count',
+  10 => 'today_agent_one',
+  11 => 'today_agent_sub',
+  12 => 'today_store_pay',
+  13 => 'agent_commission',
+  14 => 'thirty_pay',
+  15 => 'run_task',
+  16 => 'all_task',
+  17 => 'all_video',
+  18 => 'all_comment',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000263s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:39+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/ajax/lang?callback=define&controllername=dashboard&lang=zh-cn&v=1682130638&v=1682130638
+[运行时间：0.075275s] [吞吐率：13.28req/s] [内存消耗：3,990.06kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001826s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000335s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1682130638',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002361s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000240s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:39+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/hold.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130638&v=1682130638
+[运行时间：0.092438s] [吞吐率：10.82req/s] [内存消耗：3,992.20kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006838s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000468s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130638',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002977s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000283s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:42+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php
+[运行时间：0.065440s] [吞吐率：15.28req/s] [内存消耗：3,951.09kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001350s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000295s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001756s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000201s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:43+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/index/login
+[运行时间：0.064288s] [吞吐率：15.56req/s] [内存消耗：3,951.35kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001402s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000321s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001623s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000254s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:43+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/index.php?s=/captcha
+[运行时间：0.038798s] [吞吐率：25.77req/s] [内存消耗：2,107.67kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001672s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000310s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/douyin_xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:43+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130642&v=1682130642
+[运行时间：0.067320s] [吞吐率：14.85req/s] [内存消耗：3,994.10kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001594s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000334s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130642',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002042s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000213s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:56+08:00 ] 115.224.163.31 POST dyxp.holdnetwork.cn/store.php/index/login
+[运行时间：0.081361s] [吞吐率：12.29req/s] [内存消耗：4,117.95kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001767s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'https://dyxp.holdnetwork.cn',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'content-length' => '88',
+  'host' => 'dyxp.holdnetwork.cn',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '58a67695483ae15f8608017767db4218',
+  'username' => 'ceshi',
+  'password' => 'ceshi123',
+  'captcha' => '4NTW',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001540s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.011457s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:56+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/index/index
+[运行时间：0.069732s] [吞吐率：14.34req/s] [内存消耗：3,973.20kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001746s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000353s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001935s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'store_name',
+  7 => 'out_date',
+  8 => 'menu_url',
+  9 => 'iframe_url',
+  10 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000256s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:57+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/dashboard?
+[运行时间：0.202684s] [吞吐率：4.93req/s] [内存消耗：4,187.93kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001855s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000381s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001560s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Dashboard->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'index_task',
+  7 => 'video_task',
+  8 => 'key_task',
+  9 => 'run_task',
+  10 => 'all_task',
+  11 => 'all_video',
+  12 => 'all_comment',
+  13 => 'user_list',
+  14 => 'store_info',
+  15 => 'use_price',
+  16 => 'all_price',
+  17 => 'index_task_date',
+  18 => 'index_task_count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000296s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:30:57+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130656&v=1682130656
+[运行时间：0.055611s] [吞吐率：17.98req/s] [内存消耗：3,993.66kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001383s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000296s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130656',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001904s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000213s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:31:00+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/index
+[运行时间：0.063334s] [吞吐率：15.79req/s] [内存消耗：3,973.16kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001563s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000322s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001404s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'store_name',
+  7 => 'out_date',
+  8 => 'menu_url',
+  9 => 'iframe_url',
+  10 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000211s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:31:02+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/dashboard?
+[运行时间：0.144057s] [吞吐率：6.94req/s] [内存消耗：4,187.93kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001616s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000374s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001405s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/dashboard.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Dashboard->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'index_task',
+  7 => 'video_task',
+  8 => 'key_task',
+  9 => 'run_task',
+  10 => 'all_task',
+  11 => 'all_video',
+  12 => 'all_comment',
+  13 => 'user_list',
+  14 => 'store_info',
+  15 => 'use_price',
+  16 => 'all_price',
+  17 => 'index_task_date',
+  18 => 'index_task_count',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000206s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:31:05+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130660&v=1682130660
+[运行时间：0.086163s] [吞吐率：11.61req/s] [内存消耗：3,993.66kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002207s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000478s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130660',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002846s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000219s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:31:05+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=dashboard&lang=zh-cn&v=1682130662&v=1682130662
+[运行时间：0.062369s] [吞吐率：16.03req/s] [内存消耗：3,991.55kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001496s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000327s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1682130662',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001985s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000425s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:33:26+08:00 ] 42.236.10.78 GET dyxp.holdnetwork.cn/hold.php
+[运行时间：0.056356s] [吞吐率：17.74req/s] [内存消耗：2,934.53kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001519s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001697s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000302s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:33:56+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/hold.php/index/login
+[运行时间：0.060410s] [吞吐率：16.55req/s] [内存消耗：3,965.80kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001521s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000304s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001314s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000261s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:02+08:00 ] 42.236.10.78 GET dyxp.holdnetwork.cn/hold.php/index/login
+[运行时间：0.057808s] [吞吐率：17.30req/s] [内存消耗：3,966.24kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001445s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000361s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0tgkalimmqetrcj3te8um6gtm9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001262s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000215s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:04+08:00 ] 42.236.10.78 GET dyxp.holdnetwork.cn/hold.php
+[运行时间：0.063488s] [吞吐率：15.75req/s] [内存消耗：2,935.63kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002157s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000479s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0tgkalimmqetrcj3te8um6gtm9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002347s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000315s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:09+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/index.php?s=/captcha
+[运行时间：0.047991s] [吞吐率：20.84req/s] [内存消耗：2,101.45kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001377s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000328s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qvn1kojg2jvqg3tlicdiphg74m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/68.0.3427.1 Safari/537.36',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/douyin_xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:09+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/hold.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130836&v=1682130836
+[运行时间：0.068851s] [吞吐率：14.52req/s] [内存消耗：3,988.53kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001559s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000365s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qvn1kojg2jvqg3tlicdiphg74m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130836',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001991s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000244s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:11+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/hold.php/index/login
+[运行时间：0.060405s] [吞吐率：16.55req/s] [内存消耗：3,968.00kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001435s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000308s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=qvn1kojg2jvqg3tlicdiphg74m; think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001286s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->login[ /www/wwwroot/douyin_xunpang/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000249s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:13+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/index.php?s=/captcha
+[运行时间：0.050849s] [吞吐率：19.67req/s] [内存消耗：2,102.72kb] [文件加载：115]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002016s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000434s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/wwwroot/douyin_xunpang/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:34:14+08:00 ] 42.236.10.117 GET dyxp.holdnetwork.cn/hold.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682130851&v=1682130851
+[运行时间：0.065438s] [吞吐率：15.28req/s] [内存消耗：3,987.97kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001674s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000394s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'think_var=zh-cn; PHPSESSID=0thc167a5258mogre5p3k11ajn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682130851',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002020s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000224s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:25+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/index?jump_url=store_task&menu_url=store_task1&mode=1
+[运行时间：0.079221s] [吞吐率：12.62req/s] [内存消耗：3,973.83kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001878s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000428s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'jump_url' => 'store_task',
+  'menu_url' => 'store_task1',
+  'mode' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001957s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'store_name',
+  7 => 'out_date',
+  8 => 'menu_url',
+  9 => 'iframe_url',
+  10 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000206s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:25+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/store_task?menu_url=store_task1&mode=1&
+[运行时间：0.092052s] [吞吐率：10.86req/s] [内存消耗：4,119.93kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001982s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000454s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'store_task',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menu_url' => 'store_task1',
+  'mode' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002129s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\StoreTask->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/StoreTask.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/store_task/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'mode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000287s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:25+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682131644&v=1682131644
+[运行时间：0.062580s] [吞吐率：15.98req/s] [内存消耗：3,993.66kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001555s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000348s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682131644',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001904s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000275s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:25+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=store_task&lang=zh-cn&v=1682131645&v=1682131645
+[运行时间：0.058011s] [吞吐率：17.24req/s] [内存消耗：3,990.17kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001567s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000332s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'store_task',
+  'lang' => 'zh-cn',
+  'v' => '1682131645',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002384s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000196s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:26+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/store_task/index?menu_url=store_task1&mode=1&&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1682131646022
+[运行时间：0.177434s] [吞吐率：5.64req/s] [内存消耗：4,230.07kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002249s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000445s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'store_task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menu_url' => 'store_task1',
+  'mode' => '1',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1682131646022',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002143s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\StoreTask->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/StoreTask.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000279s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:33+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/index?jump_url=store_task&menu_url=store_task3&mode=3
+[运行时间：0.059125s] [吞吐率：16.91req/s] [内存消耗：3,973.83kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001519s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000307s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'jump_url' => 'store_task',
+  'menu_url' => 'store_task3',
+  'mode' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001279s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'store_name',
+  7 => 'out_date',
+  8 => 'menu_url',
+  9 => 'iframe_url',
+  10 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000216s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:33+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/store_task?menu_url=store_task3&mode=3&
+[运行时间：0.063207s] [吞吐率：15.82req/s] [内存消耗：4,119.93kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001429s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000294s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'store_task',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menu_url' => 'store_task3',
+  'mode' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001354s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\StoreTask->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/StoreTask.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/view/store_task/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'admin_avatar',
+  6 => 'mode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000243s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:34+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1682131653&v=1682131653
+[运行时间：0.062218s] [吞吐率：16.07req/s] [内存消耗：3,993.66kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001629s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000354s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1682131653',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001916s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000276s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:34+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/ajax/lang?callback=define&controllername=store_task&lang=zh-cn&v=1682131653&v=1682131653
+[运行时间：0.086544s] [吞吐率：11.55req/s] [内存消耗：3,990.17kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005216s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000579s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'script',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'store_task',
+  'lang' => 'zh-cn',
+  'v' => '1682131653',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001892s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/ajax.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\Ajax->lang[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/Ajax.php ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000385s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T10:47:34+08:00 ] 115.224.163.31 GET dyxp.holdnetwork.cn/store.php/store_task/index?menu_url=store_task3&mode=3&&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1682131654524
+[运行时间：0.088576s] [吞吐率：11.29req/s] [内存消耗：4,232.10kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002123s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000482s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'storeadmin',
+    1 => 'store_task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ttcid=bd0dee56125b439ea1545284ac65433f33; tt_scid=QpfsbSPJo09cEHu1enp7Z2v.3Dcd.gX8nt7VvzcJ1BOY.T0voORafBybRG95KHoc0715; msToken=58xjCNZjMMU1dxx7JNHv873XVY0o-MK06ftK61JZYT3ZttnQTnNrSWnaBRu5mXk6eKeGR7GO7DU2gKETsFtZi4hus8mZh7e-4YrRSvisCVhv-XDnKAS15klUvjIBZQ==; Hm_lvt_14d23a9376382281b260b8645af3136e=1682130605; Hm_lpvt_14d23a9376382281b260b8645af3136e=1682130605; PHPSESSID=asv4260a58h32hjvhmj1erhvr8; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/json',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'menu_url' => 'store_task3',
+  'mode' => '3',
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1682131654524',
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002176s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/storeadmin/lang/zh-cn/store_task.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\storeadmin\controller\StoreTask->index[ /www/wwwroot/douyin_xunpang/application/storeadmin/controller/StoreTask.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000206s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T20:40:10+08:00 ] 198.235.24.25 GET dyxp.holdnetwork.cn/
+[运行时间：0.050689s] [吞吐率：19.73req/s] [内存消耗：2,963.70kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001484s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000309s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001442s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-04-22T21:23:54+08:00 ] 167.94.138.50 GET dyxp.holdnetwork.cn/
+[运行时间：0.050250s] [吞吐率：19.90req/s] [内存消耗：2,964.37kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001534s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000321s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => 'dyxp.holdnetwork.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001638s ]
+[ info ] [ LANG ] /www/wwwroot/douyin_xunpang/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/douyin_xunpang/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/douyin_xunpang/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File

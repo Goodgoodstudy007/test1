@@ -1,0 +1,312 @@
+<script type="text/javascript" src="/storeadmin/echarts/dist/echarts.min.js"></script>
+<script type="text/javascript" src="/storeadmin/js/china.js"></script>
+<style type="text/css">
+  
+
+    body{overflow-x:hidden;font-family:Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1",Arial,sans-serif}
+    @font-face {
+        font-family:LcdD;src:url(/storeadmin/font/LcdD.773ee676.ttf);font-weight:700;font-style:normal
+    }
+    .main{float:left;width:48%;height:400px;margin-right:1%;border:3px solid #060e41;margin-top: 20px;}
+    .main_content{background:#000530;display:inline-block;background-size:contain;padding:0px 20px 20px 20px;width:100%}
+    .main_top{background:url(/storeadmin/img/top_03.png) no-repeat;color:#fff;text-align:center;background-size:100%;height:40px;margin-bottom:30px}
+    .main_top h1{background-image:-webkit-linear-gradient(bottom,#000530,#d4d5dc,#fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:"微软雅黑";letter-spacing:5px;font-weight:700;font-size:28px;line-height:30px;height:40px}
+    .igs-flex.igs-flex11{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+    .current{text-align:center;width:97%;height:170px;color:#97a8f7;background:url(/storeadmin/img/top_01.png) no-repeat;background-size:100% 100%;padding:15px 10px 45px 10px;position:relative;display:inline-block;}
+    .current .current_cont{padding-top:10px;height:100%}
+    .igs-flex.igs-flex4{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+    .current .current_cont .cont{height:100%;width:14.28%;background:#060e41;float:left}
+    .current .current_cont .cont p{text-align:left;font-size:16px;font-family:Source Han Sans CN;font-weight:700;color:#a9b8ff;line-height:40px;padding-left: 15px;}
+    .flex-start{-webkit-box-pack:start!important;-ms-flex-pack:start!important;justify-content:flex-start!important}
+    .wrapers{display:-webkit-box;height:auto;line-height:40px;border:none!important;padding:0;margin:0;background:0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .white-color{color:#fff}
+    .box-item{width:auto;height:40px;list-style:none;font-size:30px;font-family:LcdD;font-weight:700;margin:0 0 0 -25px;color:#fff}
+    .unit-span{margin-left:5px;}
+    .current_title{position: relative;z-index: 2;top: -10px;text-align: center;font-weight: bold;font-size: 20px;letter-spacing: 3px;}
+    .xunpang_comment_content{background: #5357a9;width: 250px;height: 35px;line-height: 35px;text-align: center;display: block;margin:0 auto;font-size: 20px;font-weight: bold;letter-spacing: 3px;color: #97a8f2;margin-bottom: 10px;}
+    #main_4{color: #97a8f2;}
+    #main_1,#main_2{padding-top: 20px}
+    .table-header{list-style: none;border-bottom: 1px solid #5470c6;height: 40px;line-height: 40px;padding: 0px 10px;}
+    .table-header li{display: inline-block;text-align: center;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+    .xunpang_index{width: 30%}
+    .xunpang_comment{width: 30%}
+    .xunpang_nickname{width: 18%}
+    .xunpang_time{width: 17%}
+    .table-top li{font-size: 16px;color: #fff;}
+     .content {min-height: 250px;padding: 0px;margin-right: auto;margin-left: auto;padding-left: 0px;padding-right: 0px;}
+</style>
+    <div class="main_content">
+        <div class="main_top">
+            <h1>{$site.name|mb_substr=0,8,'utf-8'|mb_strtoupper='utf-8'|htmlentities}</h1>
+        </div>
+        <div  class="current">
+            <div class="current_title">数据统计</div>
+            <div class="current_cont igs-flex igs-flex4">
+                <div class="cont">
+                    <p>当前运行任务</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$run_task}
+                        </ul>
+                        <div class="unit-span"></div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>获取客户档案</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$all_comment}
+                        </ul>
+                        <div class="unit-span">人</div>
+                    </div>
+                </div>               
+                
+                <div class="cont">
+                    <p>总监控任务</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$all_task}
+                        </ul>
+                        <div class="unit-span"></div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>总视频数</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$all_video}
+                        </ul>
+                        <div class="unit-span"></div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>剩余点数</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$store_info['price']}
+                        </ul>
+                        <div class="unit-span"></div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>消耗点数</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$use_price}
+                        </ul>
+                        <div class="unit-span"></div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>总充值</p>
+                    <div class="wrapers flex-start">
+                        <ul class="box-item white-color">
+                            {$all_price}
+                        </ul>
+                        <div class="unit-span">元</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_1" class="main"></div>
+        <div id="main_2" class="main"></div>
+        <div id="main_3" class="main" style="height:600px;"></div>
+        <div id="main_4" class="main" style="height:600px;">
+            <div class="xunpang_comment_content">D音线索用户</div>
+            <ul  class="table-header table-top" >
+                <li  class="xunpang_index">线索</li>
+                <li  class="xunpang_comment li-flex">线索分析</li>
+                <li  class="xunpang_nickname li-width">D音号</li>
+                <li  class="xunpang_time">分析时间</li>
+            </ul>
+            <div id="xunpang_comment" style="position:relative;overflow:hidden;height:500px;">
+            {if $user_list}
+                <div id="xunpang_comment_id" style="height:auto;">
+                    {foreach $user_list as $k=>$v }
+                    <ul  class="table-header">
+                        <li  class="xunpang_index">{$v.title}</li>
+                        <li  class="xunpang_comment li-flex">{$v.comment}</li>
+                        <li  class="xunpang_nickname li-width">{$v.userid}</li>
+                        <li  class="xunpang_time">{$v.addtime}</li>
+                    </ul>
+                    {/foreach} 
+                </div>
+                <div id="xunpang_comment_id2" style="height:auto;"></div>
+            {/if}
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    {if $user_list}
+    var speed=70
+      // 向上滚动
+      var demo=document.getElementById("xunpang_comment");
+      var demo2=document.getElementById("xunpang_comment_id2");
+      var demo1=document.getElementById("xunpang_comment_id");
+      demo2.innerHTML=demo1.innerHTML
+      function Marquee(){
+       if(demo.scrollTop>=demo1.offsetHeight){
+        demo.scrollTop=0;
+       }
+       else{
+        demo.scrollTop=demo.scrollTop+1;
+       }
+      }
+      var MyMar=setInterval(Marquee,speed)
+      demo.onmouseover=function(){clearInterval(MyMar)}
+      demo.onmouseout=function(){MyMar=setInterval(Marquee,speed)}
+    {/if}
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main_1'));
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '任务获客量统计',
+                textStyle:{
+                    color:'#fff'
+                },
+                left: 'center',
+            },
+            tooltip: {},
+            legend: {
+                show:false
+            },
+            xAxis: {
+                data: [{$index_task_date}],
+                axisLabel:{
+                    textStyle:{
+                        color:'#fff'
+                    },
+                }
+
+            },
+            yAxis: {
+                axisLabel:{
+                    textStyle:{
+                        color:'#fff'
+                    },
+                }
+            },
+            series: [{
+                name: '获客量',
+                type: 'bar',
+                data: [{$index_task_count}],
+
+            }],
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        var myChart = echarts.init(document.getElementById('main_2'));
+        option = {
+            title: {
+                text: '历史监控统计',
+                subtext: '',
+                left: 'center',
+                textStyle:{
+                    color:'#fff'
+                },
+            },
+            tooltip: {
+                trigger: 'item'
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                show:false
+            },
+            series: [
+                {
+                    name: '访问来源',
+                    type: 'pie',
+                    radius: '50%',
+                    data: [
+                        {value: {$index_task}, name: '同行主页监控'},
+                        {value: {$video_task}, name: '单视频任务'},
+                        {value: {$key_task}, name: '关键词监控'},
+                    ],
+                    label: {  
+                        normal: {  
+                            show: true , //省份名称 
+                            textStyle: {
+                              color: "#fff",
+                              fontSize: 14,
+                            },
+                        },  
+                        emphasis: {  
+                            show: false  
+                        } , 
+                    }, 
+                }
+            ]
+        };
+        myChart.setOption(option);
+
+
+        function randomData() {  
+             return Math.round(Math.random()*500);  
+        } 
+        var mydata = [  
+                // {name: '北京',value: '100' },{name: '天津',value: randomData() },   
+            ]; 
+        var optionMap = {  
+                title: {  
+                    text: '用户地域分布图',  
+                    subtext: '', 
+                    textStyle:{
+                        color:'#fff'
+                    },
+                    x:'center' ,
+                    top: 70
+                    // y: 'bottom', 
+                },  
+                tooltip : {  
+                    trigger: 'item'  
+                },  
+                
+                //左侧小导航图标
+                visualMap: {  
+                    show : false,   
+                    label: {  
+                        color: '#000',
+                    },
+                },  
+                //配置属性
+                series: [{  
+                    name: '数据',  
+                    type: 'map',  
+                    mapType: 'china',   
+                    roam: true,  
+                    label: {  
+                        normal: {  
+                            show: true , //省份名称 
+                            textStyle: {
+                              color: "#fff",
+                              fontSize: 12,
+                            },
+                        },  
+                        emphasis: {  
+                            show: false  
+                        } , 
+                    }, 
+                    itemStyle: {
+                        normal: {
+                        borderWidth: .5, //区域边框宽度
+                            areaColor: "rgba(255, 255, 255, 0)", //区域颜色
+                        },
+                        emphasis: {
+                            borderWidth: .5,
+                            areaColor: "#5e6eff",
+                        }
+                    }, 
+
+                    data:mydata  //数据
+                }]  
+            };  
+        //初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main_3'));
+
+        //使用制定的配置项和数据显示图表
+        myChart.setOption(optionMap);
+    </script>

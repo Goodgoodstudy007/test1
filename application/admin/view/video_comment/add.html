@@ -1,0 +1,118 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Task_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-task_id" data-rule="required" data-source="task/index" class="form-control selectpage" name="row[task_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Task_video_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-task_video_id" data-rule="required" data-source="task/video/index" class="form-control selectpage" name="row[task_video_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Douyin_username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-douyin_username" data-rule="required" class="form-control" name="row[douyin_username]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Douyin_userid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-douyin_userid" data-rule="required" class="form-control" name="row[douyin_userid]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Douyin_desc')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-douyin_desc" data-rule="required" class="form-control" name="row[douyin_desc]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Douyin_head')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-douyin_head" data-rule="required" class="form-control" name="row[douyin_head]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Comment')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-comment" data-rule="required" class="form-control " rows="5" name="row[comment]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Comment_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-comment_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[comment_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Addtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-addtime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[addtime]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" class="form-control" name="row[status]" type="number" value="1">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Reply_comment_total')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-reply_comment_total" data-rule="required" class="form-control" name="row[reply_comment_total]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Digg_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-digg_count" data-rule="required" class="form-control" name="row[digg_count]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Douyin_cid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-douyin_cid" data-rule="required" class="form-control" name="row[douyin_cid]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Keyword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-keyword" data-rule="required" class="form-control" name="row[keyword]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Aweme_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-aweme_count" data-rule="required" class="form-control" name="row[aweme_count]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Following_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-following_count" data-rule="required" class="form-control" name="row[following_count]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Follower_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-follower_count" data-rule="required" class="form-control" name="row[follower_count]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Total_favorited')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-total_favorited" data-rule="required" class="form-control" name="row[total_favorited]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

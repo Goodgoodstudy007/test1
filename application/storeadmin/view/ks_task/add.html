@@ -1,0 +1,147 @@
+<style type="text/css">
+    .recomm_keyword,.no_recomm_keyword{background: #3ca793;padding: 5px ;margin-bottom: 10px;margin-right: 10px;color: #fff;display: inline-block;cursor: pointer;}
+ .delete_keyword{margin-left: 5px;color: #ccc;}
+</style>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">任务名:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" data-rule="required" class="form-control" name="row[title]" type="text" value="" placeholder="随意取一个名字吧">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">采集源:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-url" data-rule="required" class="form-control" name="row[url]" type="text" value="" placeholder="输入采集源">
+            
+            <p style="margin-top:5px;color:#888;">筛选K手全网关键词，例如：广州周边游 </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">筛选关键词:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-keywords" class="form-control " rows="3" name="row[keywords]" cols="50"></textarea>
+            <div class="layui-form-item" style="font-size:14px;">
+                <div >系统推荐关键词 <font style="color:#ccc;font-size: 12px;">(点击关键词快速添加到词库)</font></div>
+                <div class="input-group" style="margin-top:10px;">
+                    <span class="recomm_keyword">多少钱</span>
+                    <span class="recomm_keyword">价格</span>
+                    <span class="recomm_keyword">厂家</span>
+                    <span class="recomm_keyword">哪里</span>
+                    <span class="recomm_keyword">地址</span>
+                    <span class="recomm_keyword">联系</span>
+                    <span class="recomm_keyword">电话</span>
+                    <span class="recomm_keyword">购买</span>
+                    <span class="recomm_keyword">怎么买</span>
+                    <span class="recomm_keyword">怎么卖</span>
+                    <span class="recomm_keyword">售卖</span>
+                    <span class="recomm_keyword">采购</span>
+                    <span class="recomm_keyword">感兴趣</span>
+                    <span class="recomm_keyword">有兴趣</span>
+                    <span class="recomm_keyword">合作</span>
+                    <span class="recomm_keyword">喜欢</span>
+                    <span class="recomm_keyword">咋买</span>
+                    <span class="recomm_keyword">咋卖</span>
+                    <span class="recomm_keyword">下单</span>
+                    <span class="recomm_keyword">怎么</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">屏蔽关键词(选填):</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-no_keywords" class="form-control " rows="3" name="row[no_keywords]" cols="50"></textarea>
+            <div >系统推荐屏蔽关键词 <font style="color:#ccc;font-size: 12px;">(点击关键词快速添加到屏蔽关键词库)</font></div>
+            <div class="input-group" style="margin-top:10px;">
+                <span class="no_recomm_keyword">假的</span>
+                <span class="no_recomm_keyword">联系我</span>
+                <span class="no_recomm_keyword">我有</span>
+                <span class="no_recomm_keyword">不要</span>
+                <span class="no_recomm_keyword">骗人</span>
+                <span class="no_recomm_keyword">联系我</span>
+                <span class="no_recomm_keyword">找我</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">时间筛选:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="row[public_time]" checked value="0">全部
+                </label>
+                <label>
+                    <input type="radio" name="row[public_time]"  value="15">15天内
+                </label>
+                <label>
+                    <input type="radio" name="row[public_time]" value="30">一个月内
+                </label>
+                <label>
+                    <input type="radio" name="row[public_time]" value="180">半年内
+                </label>
+                <label>
+                    <input type="radio" name="row[public_time]" value="365">一年内
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed " >{:__('OK')}</button>
+        </div>
+    </div>
+
+</form>
+
+<script type="text/javascript" src='/storeadmin/libs/jquery/dist/jquery.min.js?v=162913148'></script>
+
+<script type="text/javascript">
+    $('.recomm_keyword').click(function(){
+        keyword = $(this).html();
+        add_keyword(keyword);
+    });
+
+    function add_keyword(keyword){
+        var add_keyword = $('#c-keywords').val();
+        var has_keyword = add_keyword.split(',');
+        for(var i=0;i<has_keyword.length;i++){
+            if(has_keyword[i] == keyword){
+                layer.msg('已存在');return;
+            }
+        }
+        if($('#c-keywords').val() != ''){
+            add_keyword = add_keyword+',';
+        }
+        add_keyword = add_keyword + keyword;
+
+        $('#c-keywords').val(add_keyword);
+        
+        event.stopPropagation(); 
+    }
+
+    $('.no_recomm_keyword').click(function(){
+        keyword = $(this).html();
+        add_no_keyword(keyword);
+    });
+
+    function add_no_keyword(keyword){
+        var add_keyword = $('#c-no_keywords').val();
+        var has_keyword = add_keyword.split(',');
+        for(var i=0;i<has_keyword.length;i++){
+            if(has_keyword[i] == keyword){
+                layer.msg('已存在');return;
+            }
+        }
+        if($('#c-no_keywords').val() != ''){
+            add_keyword = add_keyword+',';
+        }
+        add_keyword = add_keyword + keyword;
+
+        $('#c-no_keywords').val(add_keyword);
+        
+        event.stopPropagation(); 
+    }
+</script>

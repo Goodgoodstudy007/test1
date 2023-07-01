@@ -1,0 +1,24 @@
+方式一：
+
+	安装nodejs
+	...
+
+	当前项目安装安装jsdom （有node_modules就忽略）
+	npm install jsdom
+
+	当前项目安装安装express （有node_modules就忽略)
+	npm install -g express-generator
+
+	启动server.js服务
+	node server.js
+	
+
+方式二：
+	
+	直接使用宝塔，安装：PM2管理器
+	启动文件选择server.js
+	目录就是当前js文件所在目录
+	需要检查安装模块：express、body-parser、express-http-proxy
+	
+运行方式：
+	python3 run.py user_info MS4wLjABAAAAAhCuW0qkQJRCrp45HfLw-Hpp8nsf9qYOf96RffY5FDo 

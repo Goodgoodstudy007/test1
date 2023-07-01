@@ -1,0 +1,88 @@
+<style type="text/css"> 
+    .version-list{padding:0 30px}
+    .version-list .version:first-child{padding-top:50px}
+    .version-list .version{padding:15px 0 35px 0;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+    .version-list .version:before{content:"";width:3px;position:absolute;top:0;left:95px;background:#f2f2f2;z-index:100;bottom:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+    .version-list .version .Time_Card{text-align:center;width:85px}
+    .version-list .version .Time_Card span{font-size:24px;margin-bottom:5px;color:#3498db}
+    .version-list .version .Time_Card p{font-size:14px}
+    .version-list .version .o_o{width:12px;height:12px;z-index:101;background-color:#3498db;border-radius:50%;position:relative;left:5px}
+    .version-list .version .v_content{width:0;-webkit-box-flex:1;-ms-flex:1;flex:1;position:relative;border:1px solid #e7e6eb;margin-left:25px;border-radius:5px;min-height:130px}
+    .version-list .version .v_content:after,.version-list .version .v_content:before{content:"";border-style:solid;position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+    .version-list .version .v_content:before{border-width:11px;border-color:transparent #fff transparent transparent;left:-22px}
+    .version-list .version .v_content .header-info{height:50px;padding:0 20px;font-size:20px;line-height:50px;background-color:#f3f3f3;color:#3498db;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-top-left-radius:5px;border-top-right-radius:5px}
+    .version-list .version .v_content .contents{padding:20px;text-align:left;font-size:14px;color:#4d4d4d}
+    .version-list .version .v_content .contents pre{word-wrap:break-word;word-break:break-all;white-space:pre-wrap;font-family:unset}
+    .version-list .version .v_content:after{border-width:13px;border-color:transparent #e4e7ed transparent transparent;left:-26px;z-index:-1}
+    .version_div{font-size: 16px;padding: 10px 0px;font-weight: bold;}
+</style>
+<div class="panel panel-default panel-intro">
+    {:build_heading()}
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="one">
+                <div class="widget-body no-padding">
+                    <div id="toolbar" class="toolbar">                   
+                        <span style="color:red;margin-left:10px;">本程序自动更新 请自行定时备份数据 数据丢失概不负责，有问题请联系微信</span>
+                    </div>
+                    <div class="version_div">当前版本：<span class="new_version"></span>   , 最新版本： <span class="new_version"></span>    </div>
+                    <div class="version-list">
+                        
+                    </div>
+                </div>
+            </div>  
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/storeadmin/libs/jquery/dist/jquery.min.js?v=1629984200"></script>
+<script type="text/javascript">
+
+    $.post('http://xunpang.hu29.com/index/index/version','',function(data){
+        if(data.data){
+            new_version = data.data.new_version;
+            version_list = data.data.version_list;
+            $('.new_version').html(new_version.newversion);
+            html = '';
+            for(var i=0;i<version_list.length;i++){
+                html += '<div class="version">\
+                            <div class="Time_Card">\
+                                <span>'+version_list[i]['day']+'</span><p>'+version_list[i]['date']+'</p>\
+                            </div>\
+                            <span class="o_o"></span>\
+                            <div class="v_content">\
+                                <span class="header-info"><p>版本号：'+version_list[i]['newversion']+'</p></span>\
+                                <div class="contents">\
+                                    <pre>'+version_list[i]['content']+'</pre>\
+                                </div>\
+                            </div>\
+                        </div>';
+            }
+            $('.version-list').html(html);
+        }
+    },'json');
+
+    $('.one_update_btn').click(function(){
+        var flag=window.confirm("请确认已备份好数据，可以开始更新版本？");
+        id = $(this).attr('data-id');
+        if(flag==true){
+            $('.update_btn').attr('disabled','disabled');
+            $('.update_btn').css('background','#999');
+            $('.update_btn').html('正在更新中，请勿关闭页面...');
+            $('.update_btn').removeClass('one_update_btn');
+            $.post('/CSiRHAJcsG.php/update/update_version',{now_version:$('.now_version').html()},function(data){
+                alert(data.msg);
+                if(data.code == 0){
+                    window.location.reload();
+                }
+                $('.update_btn').removeAttr('disabled');
+                $('.update_btn').css('background','#2c3e50');
+                $('.update_btn').html('一键更新');
+                $('.update_btn').addClass('one_update_btn');
+            },'json');
+        }else{ 
+            return false;
+        }
+    });
+</script>

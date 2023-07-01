@@ -1,0 +1,176 @@
+<style type="text/css">
+    #jiexi_btn {
+    background: #000;
+    color: #fff;
+    width: 100px;display: inline-block;height: 35px;border-radius: 5px;line-height: 35px;text-align: center;font-size: 16px;cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+</style>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">商户id:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-store_id" data-rule="required" class="form-control" name="row[store_id]" type="number" value="" placeholder="请输入商户列表的id">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">任务名:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" data-rule="required" class="form-control" name="row[title]" type="text" value="" placeholder="随意取一个名字吧">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">视频类型:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="row[mode]" class="mode" checked value="1">主页监控
+                </label>
+                <label>
+                    <input type="radio" name="row[mode]" class="mode"  value="2">单视频监控
+                </label>
+                <label>
+                    <input type="radio" name="row[mode]" class="mode" value="3">关键词监控
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">采集源:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-url" data-rule="required" class="form-control" name="row[url]" type="text" value="" placeholder="输入采集源">
+            <p class="jiexi_result" style="display:none">
+                昵称: <span class="jiexi_result_name">干饭人</span>
+                <input type="hidden" name="row[desc]" class="desc">
+                <input type="hidden" name="row[fans]" class="fans">
+                <input type="hidden" name="row[follow]" class="follow">
+                <input type="hidden" name="row[head]" class="head">
+                <input type="hidden" name="row[userid]" class="userid">
+                <input type="hidden" name="row[username]" class="username">
+                <input type="hidden" name="row[zan]" class="zan">
+                <input type="hidden" name="row[sec_user_id]" class="sec_user_id" value="">
+                <input type="hidden" name="row[video_count]" class="video_count">
+            </p>
+            <div class="mode1_hidden" >
+                <p style="margin-top:5px;color:#888;">抖音app博主首页分享链接：https://v.douyin.com/espdeqQ/</p>
+                <span id="jiexi_btn">解析链接</span>
+            </div>
+            <div class="mode2_hidden" style="display:none">
+                <p style="margin-top:5px;color:#888;">抖音app视频分享链接：https://v.douyin.com/e3CFn8C/</p>
+            </div>
+            <div class="mode3_hidden" style="display:none">
+                <p style="margin-top:5px;color:#888;">筛选全网关键词，例如：北京二手车 （系统获取前20条视频询盘）</p>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">筛选关键词:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-keywords" class="form-control " rows="5" name="row[keywords]" cols="50"></textarea>
+            <p style="margin-top:5px;color:#888;">多个关键词，请用逗号隔开，如：怎么，哪里，地址，在哪儿，购买，我想要，联系，电话，地址，厂家，价格，多少钱，合作，喜欢，有兴趣，采购，怎么卖，怎么买，哪里买</p>
+        </div>
+    </div>
+    <div class="mode3_hidden" style="display:none">
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">搜索排序:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="row[sort_type]" checked value="0">默认排序
+                    </label>
+                    <label>
+                        <input type="radio" name="row[sort_type]"  value="1">最多点赞
+                    </label>
+                    <label>
+                        <input type="radio" name="row[sort_type]" value="2">最新发布
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">发布时间:</label>
+            <div class="col-xs-12 col-sm-8">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="row[publish_time]" checked value="0">默认
+                    </label>
+                    <label>
+                        <input type="radio" name="row[publish_time]"  value="1">一天内
+                    </label>
+                    <label>
+                        <input type="radio" name="row[publish_time]" value="7">一周内
+                    </label>
+                    <label>
+                        <input type="radio" name="row[publish_time]" value="182">半年内
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled" disabled="disabled" style="background:#ccc;">{:__('OK')}</button>
+        </div>
+    </div>
+
+</form>
+<script type="text/javascript" src='/storeadmin/libs/jquery/dist/jquery.min.js?v=162913148'></script>
+
+<input type="hidden" name="is_jiexi" class="is_jiexi" value="0">
+<script type="text/javascript">
+    $('.mode').change(function() {
+        if (this.value == 3) {
+            $('.mode3_hidden').show();
+            $('.mode2_hidden').hide();
+            $('.mode1_hidden').hide();
+        }else if (this.value == 2) {
+            $('.mode2_hidden').show();
+            $('.mode3_hidden').hide();
+            $('.mode1_hidden').hide();
+        }else if (this.value == 1) {
+            $('.mode1_hidden').show();
+            $('.mode3_hidden').hide();
+            $('.mode2_hidden').hide();
+        }
+        if(this.value!=1){
+            $('.is_jiexi').val(1);
+            $('.btn-embossed').css('background','#fd4835');
+            $('.btn-embossed').removeAttr('disabled');
+        }else{
+            $('.is_jiexi').val(0);
+            $('.btn-embossed').css('background','#ccc');
+            $('.btn-embossed').addAttr('disabled');
+        }
+    });
+
+    $('#jiexi_btn').click(function(){
+        douyin_url = $('#c-url').val();
+        if(douyin_url==''){
+            layer.msg('请填写博主主页分享链接');return;
+        }
+        layer.msg('解析中...',{time: 20000});
+        $.post("/store/task/jiexi", {douyin_url:douyin_url}, function(ret) {
+            if (ret.code == 0) {
+                $('.jiexi_result').show();
+                $('.jiexi_result_name').html(ret.data.username);
+                $('.sec_user_id').val(ret.data.sec_user_id);
+                $('.desc').val(ret.data.desc);
+                $('.fans').val(ret.data.fans);
+                $('.follow').val(ret.data.follow);
+                $('.head').val(ret.data.head);
+                $('.userid').val(ret.data.userid);
+                $('.username').val(ret.data.username);
+                $('.zan').val(ret.data.zan);
+                $('.video_count').val(ret.data.video_count);
+                $('.is_jiexi').val(1);
+                $('.btn-embossed').css('background','#fd4835');
+                $('.btn-embossed').removeAttr('disabled');
+            }
+            layer.close();
+            layer.msg(ret.msg);return;
+        }, 'json');
+    });
+
+</script>

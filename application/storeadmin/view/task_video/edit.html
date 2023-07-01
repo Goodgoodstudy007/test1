@@ -1,0 +1,70 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Task_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-task_id" data-rule="required" data-source="task/index" class="form-control selectpage" name="row[task_id]" type="text" value="{$row.task_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Aweme_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-aweme_id" data-rule="required" data-source="aweme/index" class="form-control selectpage" name="row[aweme_id]" type="text" value="{$row.aweme_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-status" data-rule="required" class="form-control" name="row[status]" type="number" value="{$row.status|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Addtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-addtime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[addtime]" type="text" value="{$row.addtime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Uptime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-uptime" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[uptime]" type="text" value="{$row.uptime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{:$row.create_time?datetime($row.create_time):''}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Video_desc')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-video_desc" data-rule="required" class="form-control" name="row[video_desc]" type="text" value="{$row.video_desc|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Video_url')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-video_url" class="form-control " rows="5" name="row[video_url]" cols="50">{$row.video_url|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cursor')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-cursor" data-rule="required" class="form-control" name="row[cursor]" type="number" value="{$row.cursor|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Script_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-script_count" data-rule="required" class="form-control" name="row[script_count]" type="number" value="{$row.script_count|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

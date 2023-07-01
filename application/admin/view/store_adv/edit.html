@@ -1,0 +1,467 @@
+
+<div class="panel panel-default panel-intro">
+
+    <div class="panel-body">
+        <div id="toolbar" class="toolbar">
+            <a href="javascript:;" onclick="location.reload()"  class="btn btn-primary btn-refresh" title="{:__('Refresh')}" ><i class="fa fa-refresh"></i> </a>
+            <a href="javascript:history.back(-1)" class="btn btn-success btn-add "  >返回</a>                        
+        </div>
+
+        <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">计划名称:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input id="c-title" data-rule="required" class="form-control" name="row[title]" type="text" value="{$row.title|htmlentities}" placeholder="随意取一个名字吧">
+                </div>
+            </div>
+           <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">投放速度:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="row[speed]" {if $row.speed=='匀速'}checked{/if} value="匀速">匀速
+                        </label>
+                        <label>
+                            <input type="radio" name="row[speed]" {if $row.speed=='快速'}checked{/if} value="快速">快速
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">任务状态:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="row[adv_status]" {if $row.adv_status==1}checked{/if} value="1">启动
+                        </label>
+                        <label>
+                            <input type="radio" name="row[adv_status]" {if $row.adv_status==2}checked{/if} value="2">暂停
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">广告模式:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="row[mode]" {if $row.mode=='cpc'}checked{/if} value="cpc">cpc
+                        </label>
+                        <label>
+                            <input type="radio" name="row[mode]" {if $row.mode=='cpm'}checked{/if} value="cpm">cpm
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">投放位置:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input id="c-lng" data-rule="" style="    width: 200px;display: inline-block;margin-right: 10px;" class="form-control" name="row[lng]" type="text" value="{$row.lng|htmlentities}" placeholder="经度">
+                    <input id="c-lat" data-rule="" style="    width: 200px;display: inline-block;margin-right: 10px;" class="form-control" name="row[lat]" type="text" value="{$row.lat|htmlentities}" placeholder="纬度">
+                    <p style="margin-top:5px;color:#888;">百度地图坐标拾取工具地址： <a target="_blank" href="http://api.map.baidu.com/lbsapi/getpoint/index.html">http://api.map.baidu.com/lbsapi/getpoint/index.html</a></p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">投放时间:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input type="text" class="form-control" id="c-start_time" readonly=""  name="row[start_time]" value="{$row.start_time|htmlentities}" style="    width: 200px;display: inline-block;margin-right: 10px;">
+                    <label  class="control-label">至 </label>
+                    <input type="text" class="form-control" id="c-end_time" readonly=""  name="row[end_time]" value="{$row.end_time|htmlentities}" style="    width: 200px;display: inline-block;margin-right: 10px;">
+         
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">最高单价(元):</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input id="c-max_price" data-rule="required" class="form-control" name="row[max_price]" type="number" value="{$row.max_price|htmlentities}" placeholder="请输入预期最高单价">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">每日限额(元):</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input id="c-day_limit" data-rule="required" class="form-control" name="row[day_limit]" type="number" value="{$row.day_limit|htmlentities}" placeholder="每日限额">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">投放设备:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="device[]" {if in_array('video',$row.device)}checked{/if} value="video">video
+                        </label>
+                        <label>
+                            <input type="checkbox" name="device[]" {if in_array('pc',$row.device)}checked{/if} value="pc">pc
+                        </label>
+                        <label>
+                            <input type="checkbox" name="device[]" {if in_array('mobile',$row.device)}checked{/if} value="mobile">mobile
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">人群性别:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="sex[]" {if in_array('男',$row.sex)}checked{/if}  value="男">男
+                        </label>
+                        <label>
+                            <input type="checkbox" name="sex[]" {if in_array('女',$row.sex)}checked{/if}  value="女">女
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">人群年龄:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('1',$row.age)}checked{/if} value="1">~18岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('2',$row.age)}checked{/if} value="2">19岁~25岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('3',$row.age)}checked{/if} value="3">26岁~30岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('4',$row.age)}checked{/if} value="4">31岁~40岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('5',$row.age)}checked{/if} value="5">41岁~55岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('6',$row.age)}checked{/if} value="6">56岁~65岁
+                        </label>
+                        <label>
+                            <input type="checkbox" name="age[]" {if in_array('7',$row.age)}checked{/if} value="7">66岁~
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">人群收入:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('1',$row.income)}checked{/if} value="1">~3000元
+                        </label>
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('2',$row.income)}checked{/if} value="2">3001元~6000元
+                        </label>
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('3',$row.income)}checked{/if} value="3">6001元~9000元
+                        </label>
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('4',$row.income)}checked{/if} value="4">9001元~12000元
+                        </label>
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('5',$row.income)}checked{/if} value="5">12001元~15000元
+                        </label>
+                        <label>
+                            <input type="checkbox" name="income[]" {if in_array('6',$row.income)}checked{/if} value="6">15001元~
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">人群类型:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('电商平台',$row.people)}checked{/if} value="电商平台">电商平台
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('招商加盟',$row.people)}checked{/if} value="招商加盟">招商加盟
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('婚恋交友',$row.people)}checked{/if} value="婚恋交友">婚恋交友
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('教育培训',$row.people)}checked{/if} value="教育培训">教育培训
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('金融',$row.people)}checked{/if} value="金融">金融
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('旅游',$row.people)}checked{/if} value="旅游">旅游
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('护肤彩妆',$row.people)}checked{/if} value="护肤彩妆">护肤彩妆
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('3C数码',$row.people)}checked{/if} value="3C数码">3C数码
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('家电',$row.people)}checked{/if} value="家电">家电
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('食品',$row.people)}checked{/if} value="食品">食品
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('服饰',$row.people)}checked{/if} value="服饰">服饰
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('内衣',$row.people)}checked{/if} value="内衣">内衣
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('鞋帽',$row.people)}checked{/if} value="鞋帽">鞋帽
+                        </label>
+                        <label>
+                            <input type="checkbox" name="people[]" {if in_array('箱包',$row.people)}checked{/if} value="箱包">箱包
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">人群爱好:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('宠物及摄影',$row.plike)}checked{/if} value="宠物及摄影">宠物及摄影
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('电子产品',$row.plike)}checked{/if} value="电子产品">电子产品
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('泛娱乐',$row.plike)}checked{/if} value="泛娱乐">泛娱乐
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('音乐影视',$row.plike)}checked{/if} value="音乐影视">音乐影视
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('游戏',$row.plike)}checked{/if} value="游戏">游戏
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('人文艺术',$row.plike)}checked{/if} value="人文艺术">人文艺术
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('投资金融',$row.plike)}checked{/if} value="投资金融">投资金融
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('体育运动',$row.plike)}checked{/if} value="体育运动">体育运动
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('旅游',$row.plike)}checked{/if} value="旅游">旅游
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('小说',$row.plike)}checked{/if} value="小说">小说
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('网络购物',$row.plike)}checked{/if} value="网络购物">网络购物
+                        </label>
+                        <label>
+                            <input type="checkbox" name="plike[]" {if in_array('房地产相关',$row.plike)}checked{/if} value="房地产相关">房地产相关
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">设备品牌:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('华为',$row.mobile)}checked{/if} value="华为">华为
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('中兴',$row.mobile)}checked{/if} value="中兴">中兴
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('酷派',$row.mobile)}checked{/if} value="酷派">酷派
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('魅族',$row.mobile)}checked{/if} value="魅族">魅族
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('联想',$row.mobile)}checked{/if} value="联想">联想
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('谷歌',$row.mobile)}checked{/if} value="谷歌">谷歌
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('苹果',$row.mobile)}checked{/if} value="苹果">苹果
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('oppo',$row.mobile)}checked{/if} value="oppo">oppo
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('荣耀',$row.mobile)}checked{/if} value="荣耀">荣耀
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('小米',$row.mobile)}checked{/if} value="小米">小米
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('三星',$row.mobile)}checked{/if} value="三星">三星
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('vivo',$row.mobile)}checked{/if} value="vivo">vivo
+                        </label>
+                        <label>
+                            <input type="checkbox" name="mobile[]" {if in_array('其他',$row.mobile)}checked{/if} value="其他">其他
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">上网类型:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('wifi',$row.network)}checked{/if} value="wifi">wifi
+                        </label>
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('2G',$row.network)}checked{/if} value="2G">2G
+                        </label>
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('3G',$row.network)}checked{/if} value="3G">3G
+                        </label>
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('4G',$row.network)}checked{/if} value="4G">4G
+                        </label>
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('5G',$row.network)}checked{/if} value="5G">5G
+                        </label>
+                        <label>
+                            <input type="checkbox" name="network[]" {if in_array('其他',$row.network)}checked{/if} value="其他">其他
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">浏览器:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('Chrome',$row.browser)}checked{/if} value="Chrome">Chrome
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('Firefox',$row.browser)}checked{/if} value="Firefox">Firefox
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('IE',$row.browser)}checked{/if} value="IE">IE
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('Maxthon',$row.browser)}checked{/if} value="Maxthon">Maxthon
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('Safari',$row.browser)}checked{/if} value="Safari">Safari
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('2345',$row.browser)}checked{/if} value="2345">2345
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('360安全',$row.browser)}checked{/if} value="360安全">360安全
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('猎豹',$row.browser)}checked{/if} value="猎豹">猎豹
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('360极速',$row.browser)}checked{/if} value="360极速">360极速
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('搜狗',$row.browser)}checked{/if} value="搜狗">搜狗
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('QQBrowser',$row.browser)}checked{/if} value="QQBrowser">QQBrowser
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('Mozilla',$row.browser)}checked{/if} value="Mozilla">Mozilla
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('UCWEB',$row.browser)}checked{/if} value="UCWEB">UCWEB
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('TheWorld',$row.browser)}checked{/if} value="TheWorld">TheWorld
+                        </label>
+                        <label>
+                            <input type="checkbox" name="browser[]" {if in_array('其他',$row.browser)}checked{/if} value="其他">其他
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2">审核状态:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="row[status]" {if $row.status==1}checked{/if} value="1">审核中
+                        </label>
+                        <label>
+                            <input type="radio" name="row[status]" {if $row.status==2}checked{/if} value="2">审核通过
+                        </label>
+                        <label>
+                            <input type="radio" name="row[status]" {if $row.status==3}checked{/if} value="3">审核通失败
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group layer-footer">
+                <label class="control-label col-xs-12 col-sm-2"></label>
+                <div class="col-xs-12 col-sm-8">
+                    <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src='/storeadmin/libs/jquery/dist/jquery.min.js?v=162913148'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+<script type="text/javascript" src="/storeadmin/libs/nice-validator/dist/local/zh-CN.js?v=1629186438"></script>
+<script type="text/javascript" src="/storeadmin/libs/bootstrap-daterangepicker/daterangepicker.js?v=1629186438"></script>
+
+<script type="text/javascript">
+     
+$('#c-start_time').daterangepicker({
+    "singleDatePicker": true,
+    "timePicker": true,
+    "timePicker24Hour": true,
+     "locale": {
+        "format": 'YYYY-MM-DD HH:mm:ss',
+        "separator": " - ",
+        "applyLabel": "确定",
+        "cancelLabel": "取消",
+        "fromLabel": "From",
+        "toLabel": "To",
+        "customRangeLabel": "Custom",
+        "weekLabel": "W",
+    },
+    "parentEl": "c-start_time",
+    "opens": "right"
+    
+}, function(start, end, label) {
+  console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+});
+      
+      
+$('#c-end_time').daterangepicker({
+    "singleDatePicker": true,
+    "timePicker": true,
+    "timePicker24Hour": true,
+     "locale": {
+        "format": 'YYYY-MM-DD HH:mm:ss',
+        "separator": " - ",
+        "applyLabel": "确定",
+        "cancelLabel": "取消",
+        "fromLabel": "From",
+        "toLabel": "To",
+        "customRangeLabel": "Custom",
+        "weekLabel": "W",
+    },
+    "parentEl": "c-end_time",
+    "opens": "right"
+    
+}, function(start, end, label) {
+  console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+});
+
+
+
+</script>

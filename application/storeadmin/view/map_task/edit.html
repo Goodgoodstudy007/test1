@@ -1,0 +1,62 @@
+<div class="panel panel-default panel-intro">
+
+    <div class="panel-body">
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="one">
+                <div class="widget-body no-padding">
+                    <div id="toolbar" class="toolbar">
+                        <a href="javascript:;" onclick="location.reload()"  class="btn btn-primary btn-refresh" title="{:__('Refresh')}" ><i class="fa fa-refresh"></i> </a>
+                        <a href="javascript:history.back(-1)" class="btn btn-success btn-add "  >返回</a>                        
+                    </div>
+                    
+
+                    <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-2">任务名:</label>
+                            <div class="col-xs-12 col-sm-8">
+                                <input id="c-title" data-rule="required" class="form-control" disabled type="text" value="{$row.title|htmlentities}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-2">采集源:</label>
+                            <div class="col-xs-12 col-sm-8">
+                                <input id="c-url" data-rule="required" class="form-control" disabled type="text" value="{$row.url|htmlentities}">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-2">筛选关键词:</label>
+                            <div class="col-xs-12 col-sm-8">
+                                <textarea id="c-keywords" class="form-control "  data-rule="required" rows="5" name="row[keywords]" cols="50">{$row.keywords|htmlentities}</textarea>
+                                <p style="margin-top:5px;color:#888;">多个关键词，请用逗号隔开，如：怎么，哪里，地址，在哪儿，购买，我想要，联系，电话，地址，厂家，价格，多少钱，合作，喜欢，有兴趣，采购，怎么卖，怎么买，哪里买</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-xs-12 col-sm-2">任务状态:</label>
+                            <div class="col-xs-12 col-sm-8">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="row[status]" {if $row.status==0}checked{/if}  value="0">暂停采集
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="row[status]" {if $row.status==1}checked{/if} value="1">运行中
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="row[status]"{if $row.status==2}checked{/if}  value="2">完成
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group layer-footer">
+                            <label class="control-label col-xs-12 col-sm-2"></label>
+                            <div class="col-xs-12 col-sm-8">
+                                <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

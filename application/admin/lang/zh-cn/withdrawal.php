@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'Store_id'          => '商家id',
+    'Agent_id'          => '代理id',
+    'Price'             => '提现金额',
+    'Addtime'           => '提现时间',
+    'Uptime'            => '审核时间',
+    'Status'            => '1审核中 2打款完成 3打款失败',
+    'Reason'            => '失败理由',
+    'Agent.agent_pid'   => '上级代理',
+    'Agent.level'       => '代理等级',
+    'Agent.store_count' => '可开商家',
+    'Agent.agent_count' => '可开代理',
+    'Agent.username'    => '账号',
+    'Agent.password'    => '密码',
+    'Agent.addtime'     => '添加时间',
+    'Agent.status'      => '1开启 0禁用',
+    'Agent.out_date'    => '过期时间',
+    'Agent.commission'  => '佣金余额',
+    'Store.store_name'  => '商家名',
+    'Store.agent_id'    => '直属代理',
+    'Store.agent_pid'   => '上级代理',
+    'Store.price'       => '点数',
+    'Store.username'    => '商家账号',
+    'Store.password'    => '商家密码',
+    'Store.addtime'     => '添加时间',
+    'Store.status'      => '1正常 0 封禁',
+    'Store.out_date'    => '过期时间'
+];

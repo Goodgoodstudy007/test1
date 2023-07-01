@@ -1,0 +1,45 @@
+1、安装php7.1 + nginx + mysql5.7
+
+2、把php7.1的exec函数取消禁用
+
+3、php7.1安装拓展：ionCube、fileinfo、sg11
+
+4、导入根目录的douyin_xunpang.sql
+
+5、修改数据库配置/application/database.php
+
+6、修改/public/index.php文件
+
+	python执行路径： 	define('PYTHON','python3'); //绝对路径一般是：/usr/bin/python3
+	
+	网站根目录配置：	define('WWWROOT_PATH','/www/wwwroot/xunpang');
+
+5、后台：
+	http://xcx.bajiuke.com/CSiRHAJcsG.php
+	admin
+	admin123
+	
+6、执行定时任务：
+	
+	1、采集主页任务视频（建议每分钟执行1次），http://xcx.bajiuke.com/index/douyin/get_task_video
+	
+	2、采集视频评论（建议每分钟执行1次），http://xcx.bajiuke.com/index/douyin/get_video_comment
+	
+	3、更新任务完成状态（建议每分钟执行1次），http://xcx.bajiuke.com/index/douyin/update_task_status
+	
+	4、采集关键词任务视频（建议每分钟执行1次），http://xcx.bajiuke.com/index/douyin/get_key_video
+	
+	5、采集单视频任务视频（建议每分钟执行1次），http://xcx.bajiuke.com/index/douyin/get_one_video
+	
+	6、地图获客（建议每分钟执行1次），http://xcx.bajiuke.com/index/map/get_customer 
+	
+	7、小红书关键词（建议每分钟执行1次），http://xcx.bajiuke.com/index/xhs/get_key_video 
+ 
+	8、小红书评论（建议每分钟执行1次），http://xcx.bajiuke.com/index/xhs/get_video_comment 
+	
+	
+7、采集脚本环境，请阅读根目录的node文件夹的安装文档
+
+8、配置服务号环境（不在线收款可不配置）：配置支付目录、配置业务域名、配置秘钥白名单，
+	
+	把支付参数填进：管理后台 -> 常规管理 -> 系统配置
